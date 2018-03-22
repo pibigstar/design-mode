@@ -75,7 +75,7 @@ public class Mail implements Cloneable{
 
 	@Override
 	public String toString() {
-		return "Mail [receiver=" + receiver + ", subject=" + subject + ", content=" + content + ", tail=" + tail + "]";
+		return "Mail [receiver=" + receiver + ", subject=" + subject + ", content=" + content + "]";
 	}
-	
+
 }

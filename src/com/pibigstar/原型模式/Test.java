@@ -9,8 +9,8 @@ public class Test {
 		Mail mail = new Mail(et);    
 		while (i < MAX_COUNT) {
 			Mail cloneMail = mail.clone();
-			cloneMail.setContent(i+"先生（女士）（变化部分）"+ mail.getTail());
 			cloneMail.setReceiver("每个人的邮箱地址（变化部分）"+i);
+			cloneMail.setContent(i+"先生（女士）（变化部分）"+ mail.getTail());
 			sendMail(cloneMail);
 			i++;
 		}
