@@ -12,12 +12,13 @@ public class Test {
 	
 	public static void main(String[] args) {
 		
-		//Builder builder = new ConcreteBuilderA();//建造者
 		Builder builder = new ConcreteBuilderB();//建造者
-		
 		Director director = new Director(builder);//指导者
-		
 		System.out.println(director.construct());
+		
+		//Builder builderA = new ConcreteBuilderA();//建造者
+		//director.setBuilder(builderA);
+		//System.out.println(director.construct());
 		
 	}
 

@@ -14,7 +14,7 @@ public class Director {
 		this.builder = builder;
 	}
 
-	public  void setBuilder(Builder builder) {
+	public void setBuilder(Builder builder) {
 		this.builder=builder;
 	}
 
