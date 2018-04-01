@@ -6,6 +6,7 @@ package com.pibigstar.桥接模式;
  *
  */
 public abstract class DriverManager {
+	
 	private Driver driver;
 
 	public void getConnection() {
